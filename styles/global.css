@@ -1,0 +1,18 @@
+:root {
+  --mainColor: #eee;
+  --secondaryColor: #d8d8e2;
+  --mainBgColor: #17171e;
+  --mainBgColorRGB: 23 23 30;
+  --navColor: #1c1c26;
+  --borderColor: #262633;
+  --purpleColorRGB: 102 93 195;
+  --purpleColor: rgb(var(--purpleColorRGB));
+  --redColor: #ff424d;
+  --redColorRGB: 255 81 87;
+  --greenColor: #00ff8e;
+}
+
+body {
+  background-color: var(--mainBgColor);
+  color: var(--mainColor);
+}
