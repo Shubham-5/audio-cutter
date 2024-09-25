@@ -1,0 +1,43 @@
+.sidebar {
+  background-color: var(--navColor);
+  border-right: solid 1px var(--borderColor);
+}
+
+.nav_icon_container {
+  scrollbar-color: var(--purpleColor) var(--mainBgColor);
+  font-size: 0.9rem;
+}
+
+.icon_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgba(234, 234, 250, 0.5);
+  font-weight: 300;
+  font-size: 0.8rem;
+  transition: color 200ms ease-in-out;
+}
+
+.active {
+  border-right: 2px solid var(--purpleColor);
+  background-color: var(--mainBgColor);
+  color: var(--mainColor);
+}
+
+.nav_icon_container .icon_container {
+  margin-right: 0.5rem;
+  height: 4rem;
+}
+
+.nav_icon_container .icon_container:hover {
+  color: var(--mainColor);
+  cursor: pointer;
+}
+
+.footer_nav_section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-bottom: 1rem;
+}
