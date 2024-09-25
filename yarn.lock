@@ -2453,6 +2453,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lucide-react@npm:^0.446.0":
+  version: 0.446.0
+  resolution: "lucide-react@npm:0.446.0"
+  peerDependencies:
+    react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0-rc
+  checksum: 10c0/40bc6613b20760451a83508cf164c48488f79acdfb7cac47b71a24d07795ce53c9ab3891f250db3ce40560f9070825b205640ea7ea0cc5098018d183cfcf77a2
+  languageName: node
+  linkType: hard
+
 "mantine-minimal-next-template@workspace:.":
   version: 0.0.0-use.local
   resolution: "mantine-minimal-next-template@workspace:."
@@ -2464,6 +2473,7 @@ __metadata:
     "@types/react-dom": "npm:18.3.0"
     eslint: "npm:8.57.0"
     eslint-config-next: "npm:14.2.4"
+    lucide-react: "npm:^0.446.0"
     next: "npm:14.2.4"
     postcss: "npm:^8.4.38"
     postcss-preset-mantine: "npm:1.17.0"
